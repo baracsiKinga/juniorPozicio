@@ -3,16 +3,50 @@ html, body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
   }
-/*navbar és slideshow*/
+
+/*navbar*/
 .navbar {
+    display: flex;
+    justify-content: space-between;
     background-color: transparent !important;
     border: none;
     z-index: 1000;
 }
+.navbar-brand{
+    margin-left: 55%;
+    margin-right: 230%;
+}
+.vl{
+    border-left: 2px solid #f8f9fa60;
+    height: 25px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+span{
+    color: #f8f9fa60;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+/*slideshow*/
 .carousel {
     margin-top: -70px;
     border-radius: 25px;
 }
+
+.carousel-item h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+.carousel-item p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.carousel-caption{
+    text-align: left;
+}
+
+
 
 /*dropdown elemek*/
 .dropdown-menu {
@@ -36,4 +70,45 @@ html, body {
 }
 .custom-button:hover{
     color: gray;
+}
+
+/*kártyák*/
+.card-body{
+    padding:0;
+}
+
+.card:hover{
+    color: goldenrod;
+}
+
+.card h4{
+    font-weight: bold;
+}
+.card h5{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.col-sm-3 p{
+    margin-top:10%;
+    font-size: 16px;
+    color: gray;
+}
+.col-sm-2 p{
+    margin-top:9%;
+    font-size: 14px;
+    color: gray;
+}
+
+/*táj*/
+.taj{
+    color:white;
+    background-color: #212529; width: 2000px; height: 1000px;
+}
+.taj h2{
+    font-weight: bold;
+}
+.taj p{
+    color: gray;
+    margin-bottom: 2%;
 }
