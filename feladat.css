@@ -1,0 +1,39 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+  }
+/*navbar és slideshow*/
+.navbar {
+    background-color: transparent !important;
+    border: none;
+    z-index: 1000;
+}
+.carousel {
+    margin-top: -70px;
+    border-radius: 25px;
+}
+
+/*dropdown elemek*/
+.dropdown-menu {
+    background-color: rgb(39, 39, 39); 
+}
+.dropdown-item {
+    color: #F8F9FA80; 
+}
+.dropdown-item:hover {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+/*More articles gomb*/
+.custom-button{
+    background-color: black;
+    color: white;
+    padding: 1% 5% 1% 5%;
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+.custom-button:hover{
+    color: gray;
+}
