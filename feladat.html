@@ -17,162 +17,195 @@
 </head>
 
 <body>
-    
-    
+  <!-- navbar -->
+  <div class="container">
+    <div class="position-relative">
+      <nav class="navbar navbar-expand-lg navbar-dark position-absolute" style="position: absolute; left: 85%;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-    <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
 
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                  Inspirations
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Digital Products</a>
-                  <a class="dropdown-item" href="#">New Trend</a>
-                  <a class="dropdown-item" href="#">Graphic Arts</a>
-                  <a class="dropdown-item" href="#">Web Design</a>
-                </div>
-              </div>
-        </li>
-        <li class="nav-item">
-            <div class="dropdown">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                  Courses
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Digital Products</a>
-                  <a class="dropdown-item" href="#">New Trend</a>
-                  <a class="dropdown-item" href="#">Graphic Arts</a>
-                  <a class="dropdown-item" href="#">Web Design</a>
-                </div>
-              </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-      </ul>
-      <!-- nagyító is kell-->
+                  <li class="nav-item">
+                      <div class="dropdown">
+                        <a type="button" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                          Inspirations
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Digital Products</a>
+                          <a class="dropdown-item" href="#">New Trend</a>
+                          <a class="dropdown-item" href="#">Graphic Arts</a>
+                          <a class="dropdown-item" href="#">Web Design</a>
+                        </div>
+                      </div>
+                  </li>
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="kepek/epulet.jpg" alt="borítókép" width="2000" height="600">
-            <div class="carousel-caption d-none d-md-block" style="text-align: left;"> <!-- stílushoz hozzáadni + javítás-->
-                <p class="card-text"> 29.Jun.2021</p>
-                <p class="card-title">Instagram artists with great photography skills</p>
-                <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p>
+                  <li class="nav-item">
+                      <div class="dropdown">
+                        <a type="button" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                          Courses
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Digital Products</a>
+                          <a class="dropdown-item" href="#">New Trend</a>
+                          <a class="dropdown-item" href="#">Graphic Arts</a>
+                          <a class="dropdown-item" href="#">Web Design</a>
+                        </div>
+                      </div>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                  </li>
+
+                  <!-- <li class="nav-item">
+                    <p>|</p>
+                  </li> nagyító + vonal-->
+
+                </ul>
             </div>
-          </div>
-    
-          <div class="carousel-item">
-            <img src="kepek/eg.jpg"  alt="borítókép" width="2000" height="600">
-            <div class="carousel-caption d-none d-md-block" >
-                <p class="card-text"> 29.Jun.2021</p>
-                <p class="card-title">Instagram artists with great photography skills</p>
-                <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p>
-            </div>
-          </div>
-    
-          <div class="carousel-item">
-            <img src="kepek\feherepulet.jpg" alt="borítókép" width="2000" height="600">
-            <div class="carousel-caption d-none d-md-block">
-                <p class="card-text"> 29.Jun.2021</p>
-                <p class="card-title">Instagram artists with great photography skills</p>
-                <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p>
-            </div>
-          </div>
-    
         </div>
+    </nav>
+  </div>
+</div>
+
+
+
+      
+<!-- slideshow -->
+ 
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+          
+          
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="kepek/epulet.jpg" alt="borítókép" width="100%" height="600">
+          <div class="carousel-caption">
+            <p>29.Jun.2021</p>
+            <p>Instagram artists with great photography skills</p>
+            <p>Many years ago, I worked for my parents who own a video production company.</p>
+          </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="kepek/eg.jpg" alt="borítókép" width="100%" height="600">
+      </div>
+
+      <div class="carousel-item">
+        <img src="kepek/epulet.jpg" alt="borítókép" width="100%" height="600">
+      </div>
+
+      <div class="carousel-item">
+        <img src="kepek/epulet.jpg" alt="borítókép" width="100%" height="600">
+      </div>
+
+      <div class="carousel-item">
+        <img src="kepek/epulet.jpg" alt="borítókép" width="100%" height="600">
+      </div>
+  </div>
+</div>
+
         
-    
+<!-- cikkek -->  
 
+<!-- <p class="d-flex flex-column">Column 3</p> 
+  <p class="ml-auto float-right">Column 4</p> -->
+  <div class="container d-flex" style="gap:10px;">
+    <p style="margin-top: 5%;">Categories&nbsp+</p>
+    <p style="margin-top: 2%; margin-left: 97%;">Column&nbsp3</p> 
+    <p style="margin-top: 2%;">Column&nbsp4</p>
+  </div>
+<div class="row">
 
-    <div class="row">
-    
-        <div class="col-sm-1"></div>
-    
-        <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/lany.jpg" alt="lany" style="width: 100%">
+    <div class="col-sm-1"></div>
+
+   
+  
+
+    <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 5% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/lany.jpg" alt="lany" style="width: 100%">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Instagram artists with great photography skills</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
+    </div>
     
-        <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/gyertya.jpg" alt="gyertya" style="width: 100%; ">
+    <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 5% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/gyertya.jpg" alt="gyertya" style="width: 100%; ">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">The 20 best creative & strong handmade of 2022</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
-    
-        <div class="card col-sm-3 col-12 border border-light"  style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/feherepulet.jpg" alt="feherepulet" style="width:100%">
+    </div>
+
+    <div class="card col-sm-3 col-12 border border-light"  style="width:400px; margin: 5% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/feherepulet.jpg" alt="feherepulet" style="width:100%">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Apartamento at ten: A decade of celebrating the everyday</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
+    </div>
     
-        <div class="col-sm-1"></div>
+    <div class="col-sm-1"></div>
     
-        <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/szekek.jpg" alt="szekek" style="width:100%">
+    <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/szekek.jpg" alt="szekek" style="width: 100%; height: 300px;"> <!--egységesíteni a méretet-->
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Allessandro Novelli's animation plays with ANDRE</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
+    </div>
         
-        <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/beszelgetes.jpg" alt="beszelgetes" style="width:100%">
+    <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/beszelgetes.jpg" alt="beszelgetes" style="width:100%">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Aron Klein's captivating images of the UDEA</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
+    </div>
     
-        <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/laptop.jpg" alt="laptop" style="width:100%">
+    <div class="card col-sm-3 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
+        <img class="card-img-top" src="kepek/laptop.jpg" alt="laptop" style="width:100%">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Renzo Patton combines design and nature</p>
             <p class="card-text">Many years ago, I worked for my parents who own a video production company.</p><hr>
             <p class="card-text">By: Peter Rowardson</p>
           </div>
-        </div>
+    </div>
+    
+</div>
 
-      </div>
-      <button type="button" class="btn btn-dark">More articles</button>
+  <button type="button" class="btn btn-dark">More articles</button>
 
       <!-- táj -->
 
       <div class="row">
 
         <div style="background-color: #212529; width: 2000px; height: 903px;">
-            <!-- <img src="kepek/taj.jpg" alt="" class="ml-auto" style="float: right; width: 1000px; height: 903px;">
-            <div class="d-flex">
-                <p class="ml-auto d-flex justify-content-end" style="margin: 200x; color: white; text-align: center;">20 unexpected destination <br>for your next trip</p>
-
-             </div>  -->
 
              <div class="position-relative">
-                <img src="kepek/taj.jpg" alt="" class="ml-auto float-right" style=" width: 1000px; height: 903px;">
+                <img src="kepek/taj.jpg" alt="tájkép" class="ml-auto float-right" style=" width: 1000px; height: 903px;">
                 <div class="position-absolute d-flex justify-content-end" style="position: absolute; margin-top: 20%; left: 64%;">
                   <h2 class="text-white" style="text-align: center;">20 unexpected destination <br>for your next trip</h2>
                 </div>
@@ -181,14 +214,7 @@
              
             
 
-            <p style="color: white;">Featured Topics</p>
-            
-            <!-- <div style="width: 720px;">
-                <img src="kepek/asztal.jpg" alt="" style="width: 250px;">
-            <p style="color: white; float: right;">29.Jun.2021</p>
-            <p style="color: white; float: right;">A beautiful solo trip to the Lake Baikal</p>
-            <p style="color: white; float: right;">Leather detail shoulder contrastic colour contour stunning silhouette working peplum.</p>
-            </div> -->
+            <p style="color: white; font-size: 50px;">Featured Topics</p>
 
             <div class="d-flex p-3 text-white">
                 
@@ -215,25 +241,6 @@
                     <div class="p-2">Leather detail shoulder contrastic colour contour stunning silhouette working peplum.</div>
                   </div>
               </div>
-
-            <!-- <div>
-                <img src="kepek/asztal.jpg" alt="">
-            <p style="color: white;">29.Jun.2021</p>
-            <p style="color: white;">Incredible architecture inspired by nature</p>
-            <p style="color: white;">Leather detail shoulder contrastic colour contour stunning silhouette working peplum.</p>
-            </div>
-
-            <div>
-                <img src="kepek/asztal.jpg" alt="">
-            <p style="color: white;">29.Jun.2021</p>
-            <p style="color: white;">Richard Norton photorealistic rendering as real photos</p>
-            <p>Leather detail shoulder contrastic colour contour stunning silhouette working peplum.</p>
-            </div> -->
-
-            <!-- tájkép-->
-             
-
-            
         </div>
       </div>
 
@@ -277,7 +284,7 @@
         
     
         <div class="card col-sm-2 col-12 border border-light" style="width:400px; margin: 2% 2% 2% 1%;">
-          <img class="card-img-top" src="kepek/festmeny.jpg" alt="festmeny" style="width:100%">
+          <img class="card-img-top" src="kepek/festmeny.jpg" alt="festmeny" style="width:100%; height: 193px;">
           <div class="card-body">
             <p class="card-text">29.Jun.2021</p>
             <p class="card-title">Allessandro Novelli's animation plays with ANDRE</p>
@@ -302,8 +309,9 @@
               </ul>
               <hr>
               <p style="color: white;">1088, North Street, Alexandria, AU</p>
-              <p style="color: white;">2022, All Rights Reserved</p>
+              <p style="color: white; margin: 0;">2022, All Rights Reserved</p>
       </div>
+      
 
 
 
