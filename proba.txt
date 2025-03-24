@@ -1,1 +1,2 @@
 hello
+a feladat.html-t index.html-ként érdemesebb elnevezni (ha több oldalunk is van), ha publikáljuk
